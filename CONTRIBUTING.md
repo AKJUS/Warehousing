@@ -73,11 +73,10 @@ That's great for quick hacking, but you will need to create a fork and clone it
 instead (or add your own fork as a new Git remote) in order to push new changes
 for a pull request.
 
-In order to test-build the mod, you'll need a few basic tools. Most come
-preinstalled on modern OSes, but sometimes [Make][make-pkg] or [Lua][lua-start]
-aren't included by default. Chances are you can install them from your distro's
-package repository using obvious package names like `make` or `lua` (or via a
-third-party tool like [Homebrew][homebrew-start] on Mac).
+In order to test-build the mod, you'll need a few basic tools: `make`, `luac`,
+and `zip`. Most come preinstalled on modern OSes, but if your system is missing
+anything it's probably easily installable using your distro's package manager
+(or via a third-party tool like [Homebrew][homebrew-start] on Mac).
 
 Once the few basic tools you need are installed, you can easily build the mod:
 
